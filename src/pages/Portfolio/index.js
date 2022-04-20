@@ -5,6 +5,7 @@ import Wrapper from "../../components/Wrapper";
 import overseer from "../../portfolio/overseer.gif"
 import img2 from "../../portfolio/img2.jpg"
 import img3 from "../../portfolio/img3.gif"
+import img4 from "../../portfolio/img4.gif"
 
 
 function Portfolio() {
@@ -46,13 +47,14 @@ function Portfolio() {
                 />
                 <PortfolioCard
                     title="Note Taker"
-                    // image={img4}
-                    description=""
-                    github=""
-                    deployed=""
+                    img={img4}
+                    description="Note-Taker app it is created for the needs of a small business client, where he can write, save and delete notes.
+                    Technologies: JavaScript,Node,Express.js"
+                    github="https://github.com/Tasevski87/Note-Taker"
+                    deployed="https://note-taker-tt.herokuapp.com"
                 />
                 <PortfolioCard
-                    title="Team Contact Creator"
+                    title=""
                     // image={img5}
                     description=""
                     github=""
