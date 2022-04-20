@@ -6,8 +6,7 @@ function Hero() {
         <div>
             <img src={profileImg} alt="toshe tasevski" id="hero-img" />
             <div id="main-text-container">
-                <h1 className="main-text">Hello, I'm Pavel!</h1>
-                {/* <h2 className="main-text"></h2> */}
+                <h1 className="main-text">Hello, I'm Toshe!</h1>
             </div>
         </div>
     );

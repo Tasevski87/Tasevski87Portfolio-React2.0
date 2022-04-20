@@ -1,0 +1,29 @@
+.nav {
+    background: #0e0e0e;
+    color: aquamarine;
+}
+
+.nav-item {
+    width: 20%;
+    color: #f2f;
+}
+
+.nav-link {
+    background: #0e0e0e;
+    color: yellow;
+    border-color: none;
+}
+
+.nav-link:hover {
+    color: rgb(245, 133, 114);
+    border: red;
+    border-color: none;
+}
+
+#root {
+    background-color: #0e0e0e;
+}
+
+.nav-tabs .nav-link {
+    border: 2px;
+}

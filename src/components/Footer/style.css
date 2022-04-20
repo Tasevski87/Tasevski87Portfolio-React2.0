@@ -1,0 +1,32 @@
+.social-container {
+    padding: 0.5rem;
+    background-color: var(--neonBlue);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 600px;
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.facebook {
+    color: blue;
+    width: 20px;
+    padding: 10px;
+}
+
+a.linkedin {
+    color: blue;
+    width: 20px;
+    padding: 10px;
+}
