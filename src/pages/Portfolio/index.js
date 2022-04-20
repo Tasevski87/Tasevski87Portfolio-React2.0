@@ -36,15 +36,15 @@ function Portfolio() {
                     img={img2}
                     description="Budget Tracker application is created for users where they can be able to track withdrawals and deposits with or without a data/internet connection so their account balance is accurate.
                     Technologies: HTML, CSS, JavaScript, Node, Express.js, Mongoose, compression and morgan"
-                    GitHub="https://github.com/Tasevski87/Budget-Tracker"
-                    Screencastify="https://shrouded-hamlet-11676.herokuapp.com"
+                    github="https://github.com/Tasevski87/Budget-Tracker"
+                    deployed="https://shrouded-hamlet-11676.herokuapp.com"
                 />
                 <PortfolioCard
                     title="Tech Blog"
                     img={img3}
                     description="Tech Blog it is a CMS-style blog site, where developers can create username and password, login and publish their blog posts and comment on other developers posts as well.Technologies: HTML, JavaScript, Node, Sequelize, mysql, mysql2, Express, Express-session, Express-handlebars, dotenv, Connect-session-sequelize, Bcrypt"
-                    GitHub="https://github.com/Tasevski87/Tech-Blog"
-                    Deployed="https://techblogapp888.herokuapp.com"
+                    github="https://github.com/Tasevski87/Tech-Blog"
+                    deployed="https://techblogapp888.herokuapp.com"
                 />
                 <PortfolioCard
                     title="Note Taker"
