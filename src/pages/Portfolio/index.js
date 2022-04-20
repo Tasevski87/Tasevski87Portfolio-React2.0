@@ -6,6 +6,7 @@ import overseer from "../../portfolio/overseer.gif"
 import img2 from "../../portfolio/img2.jpg"
 import img3 from "../../portfolio/img3.gif"
 import img4 from "../../portfolio/img4.gif"
+import img5 from "../../portfolio/img5.jpg"
 
 
 function Portfolio() {
@@ -54,11 +55,12 @@ function Portfolio() {
                     deployed="https://note-taker-tt.herokuapp.com"
                 />
                 <PortfolioCard
-                    title=""
-                    // image={img5}
-                    description=""
-                    github=""
-                    deployed=""
+                    title="Juhst Chat"
+                    img={img5}
+                    description="Juhst Chat app is a simple, user friendly and easy to use chat messaging app. The app is purposefully only focused on messaging, to deliver a high quality messaging experience and nothing else. You can look up users, add them as your friend, and begin messaging immediately.
+                    Technologies: MERN Stack, HTML, CSS, Javascript, Apollo Server, Websocket, GraphQL, socket.io, Chakra UI"
+                    github="https://github.com/Tasevski87/chat-app-live"
+                    deployed="https://drive.google.com/file/d/1ee-Xw1ZBSZTI5ATQVeStMCq2KMAsCVdr/view"
                 />
             </Wrapper>
         </div>
