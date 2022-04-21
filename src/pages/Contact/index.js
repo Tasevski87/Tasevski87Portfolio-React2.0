@@ -1,7 +1,9 @@
 import React from "react";
 import "./style.css";
-
-
+import { FaUserAlt } from "react-icons/fa"
+import { FaAddressCard } from "react-icons/fa"
+import { FaRegEnvelope } from "react-icons/fa"
+import { FaPhone } from "react-icons/fa"
 
 function Contact(props) {
     return (
@@ -15,22 +17,22 @@ function Contact(props) {
                         <div className="col-lg-5 d-flex align-items-stretch">
                             <div className="info">
                                 <div className="email">
-                    
+                                <i className="fa fa-user"> <FaUserAlt/></i>
                                     <h4>Name:</h4>
                                     <p>Toshe Tasevski</p>
                                 </div>
                                 <div className="address">
-                                    
+                                <i className="fa fa-map-marker"><FaAddressCard/> </i>
                                     <h4>Location:</h4>
                                     <p>Columbus, Ohio</p>
                                 </div>
                                 <div className="email">
-                                    
+                                <i className="fa fa-envelope"><FaRegEnvelope/></i>
                                     <h4>Email:</h4>
                                     <p>tose_tox@yahoo.com</p>
                                 </div>
                                 <div className="phone">
-                                
+                                <i className="fa fa-phone"><FaPhone/></i>
                                     <h4>Call:</h4>
                                     <p>+1 (614)589-8784</p>
                                 </div>
