@@ -8,8 +8,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => (
-    <div class="social-container">
-        <div class="social-container">
+    <div className="social-container">
+        <div className="social-container">
             <a href="https://www.facebook.com/toshe.tasevski/"
                 className="facebook social">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />

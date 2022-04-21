@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <NavTabs />
-      <Route exact path="/Tasevski87Portfolio-React2.0" component={Home} />
+      <Route exact path="/Tasevski87Portfolio-React2.0/home"component={Home} />
       <Route exact path="/Tasevski87Portfolio-React2.0/contact" component={Contact} />
       <Route exact path="/Tasevski87Portfolio-React2.0/about" component={About} />
       <Route exact path="/Tasevski87Portfolio-React2.0/portfolio" component={Portfolio} />

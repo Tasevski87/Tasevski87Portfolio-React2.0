@@ -7,9 +7,9 @@ import {
 
 export default function SocialFollow() {
     return (
-        <div class="social-container">
+        <div className="social-container">
             
-            <div class="social-container">
+            <div className="social-container">
             
             
                 <a href="https://www.facebook.com/learnbuildteach/"

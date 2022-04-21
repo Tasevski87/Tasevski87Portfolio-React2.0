@@ -9,9 +9,9 @@ function NavTabs() {
         <ul className="nav nav-tabs ">
             <li className="nav-item">
                 <Link
-                    to="/Tasevski87Portfolio-React2.0"
+                    to="/Tasevski87Portfolio-React2.0/home"
                     className={
-                        location.pathname === "/Tasevski87Portfolio-React2.0"
+                        location.pathname === "/Tasevski87Portfolio-React2.0/home"
                             ? "nav-link bg-dark text-white "
                             : "nav-link"
                     }
