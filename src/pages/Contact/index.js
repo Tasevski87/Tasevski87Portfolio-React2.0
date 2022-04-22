@@ -29,7 +29,7 @@ function Contact(props) {
                                 <div className="email">
                                 <i className="fa fa-envelope"><FaRegEnvelope/></i>
                                     <h4>Email:</h4>
-                                    <p>tose_tox@yahoo.com</p>
+                                    <a href="mailto:tose_tox@yahoo.com">tose_tox@yahoo.com</a>
                                 </div>
                                 <div className="phone">
                                 <i className="fa fa-phone"><FaPhone/></i>

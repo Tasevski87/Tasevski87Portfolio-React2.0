@@ -14,9 +14,14 @@ function About() {
                         <p className="font-italic">Full-Stack Web Developer</p>
                     </Wrapper>
                     <Wrapper>
-                        
-                        
-                    
+                    <iframe title="Video intrudoction" 
+                    width="760"
+                    height="428"
+                    src=""
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    />
                     </Wrapper>
                 </div>
             </section>

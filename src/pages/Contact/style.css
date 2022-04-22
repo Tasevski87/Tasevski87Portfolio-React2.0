@@ -43,6 +43,12 @@
     font-size: 14px;
     color: #173b6c;
 }
+.contact .info a {
+    padding: 0 0 10px 18px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #173b6c;
+}
 
 .contact .info .email p {
     padding-top: 5px;
