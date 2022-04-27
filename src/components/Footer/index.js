@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => (
+    <footer className="social-links mt-3 text-center footer">
     <div className="social-container">
         <div className="social-container">
             <a href="https://www.facebook.com/toshe.tasevski/"
@@ -24,6 +25,7 @@ const Footer = () => (
             </a>
         </div>
     </div>
+    </footer>
 
 );
 export default Footer;

@@ -8,7 +8,7 @@ function PortfolioCard(props) {
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
                 <a href={props.github}>GitHub repository</a> <span> | </span>
-                <a href={props.deployed}>Deployed Link:</a>
+                <a href={props.deployed}>Deployed Link</a>
                 <p className="card-text">{props.description}</p>
             </div>
         </div>

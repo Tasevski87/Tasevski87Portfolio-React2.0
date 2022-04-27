@@ -1,3 +1,12 @@
+.footer {
+    position: fixed;
+    height: 60px;
+    background-color: #0e0e0e;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
 .social-container {
     padding: 0.5rem;
     background-color: var(--neonBlue);
@@ -5,7 +14,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    padding-left: 600px;
+
 }
 
 a.social {
