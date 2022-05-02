@@ -1,0 +1,41 @@
+.footer {
+    position: fixed;
+    height: 60px;
+    background-color: #0e0e0e;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+.social-container {
+    padding: 0.5rem;
+    background-color: var(--neonBlue);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.facebook {
+    color: blue;
+    width: 20px;
+    padding: 10px;
+}
+
+a.linkedin {
+    color: blue;
+    width: 20px;
+    padding: 10px;
+}
